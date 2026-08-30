@@ -186,7 +186,7 @@ export default function SamplingBlueprint() {
         .sb-preset:active { transform: translateY(1px); }
       `}</style>
 
-      <div style={{ maxWidth: 460, margin: "0 auto", position: "relative" }}>
+      <div style={{ maxWidth: 860, margin: "0 auto", position: "relative" }}>
         {/* corner brackets */}
         {[
           { top: -8, left: -8, bt: true, bl: true },
