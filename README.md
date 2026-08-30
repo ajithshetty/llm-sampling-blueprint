@@ -2,11 +2,12 @@
 
 An interactive explainer for how **temperature**, **top-k**, and **top-p** reshape an LLM's next-token distribution before it samples.
 
-Part of the [Blueprint](https://ajithshetty.github.io/scd-blueprint/) series of data/ML engineering explainers.
 
-**[Live demo →](#)** <!-- replace with your GitHub Pages URL after deploy -->
 
-![Sampling Blueprint preview](#) <!-- optional: add a screenshot -->
+**[Live demo →](https://ajithshetty.github.io/llm-sampling-blueprint/)**
+
+[demo image](image.png)
+
 
 ## What it does
 
@@ -23,6 +24,8 @@ Each bar shows a dim "ghost" (probability after temperature alone) with a bright
 - **Top-P (nucleus)** — cumulative-probability cutoff
 - **Presets** — Precise / Balanced / Creative / Chaotic jump to realistic combos
 - **Sample button** — actually draws from the final distribution and logs results
+
+
 
 ## Quickstart
 
@@ -41,11 +44,15 @@ Open `http://localhost:5173`.
 npm run build
 ```
 
+
+
 ## Tech stack
 
 - React + Vite
 - Plain SVG/CSS (no chart library) for full control over the blueprint aesthetic
 - No backend — all sampling math runs client-side
+
+
 
 ## Sources
 
@@ -57,8 +64,13 @@ The sampling logic follows the primary references, not folk knowledge:
 - [AWS Bedrock — inference request parameters reference](https://docs.aws.amazon.com/bedrock/latest/userguide/model-parameters.html)
 - [AWS Bedrock — Claude request/response (temperature, top_p, top_k)](https://docs.aws.amazon.com/bedrock/latest/userguide/model-parameters-anthropic-claude-messages-request-response.html)
 
+
+
 ## Related
 
-- [`generation-blueprint`](https://github.com/ajithshetty/generation-blueprint) — the companion piece covering repetition penalty, max tokens, and stop sequences (multi-step generation, not a single distribution)
+- `[llm-generation-blueprint](https://github.com/ajithshetty/llm-generation-blueprint)` — the companion piece covering repetition penalty, max tokens, and stop sequences (multi-step generation, not a single distribution)
+
+
 
 ## Built with love from Claude and Cursor
+
