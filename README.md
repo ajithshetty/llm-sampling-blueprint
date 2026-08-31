@@ -30,8 +30,8 @@ Each bar shows a dim "ghost" (probability after temperature alone) with a bright
 ## Quickstart
 
 ```bash
-git clone https://github.com/ajithshetty/sampling-blueprint.git
-cd sampling-blueprint
+git clone https://github.com/ajithshetty/llm-sampling-blueprint.git
+cd llm-sampling-blueprint
 npm install
 npm run dev
 ```
